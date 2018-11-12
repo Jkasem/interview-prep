@@ -50,3 +50,18 @@ Time complexity: O(2N)
 Space complexity: O(n)
 Function calls: 99
 Time needed: 0.000001ms
+
+### Divide & Conquer
+
+Breaking the problem into smaller pieces until a base case it hit.
+Euclid’s algorithm
+
+problem: You have a 1680 meter by 640 meter plot of land and want to divide it into equal square plots. What is the smallest plot you can make?
+
+base case: square plot (length == height)
+recursive case: recurse on smaller piece of land
+
+function sum(array) {
+if (!array.length) return 0;
+return array.shift() + sum(array);
+}
