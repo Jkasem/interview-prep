@@ -1,4 +1,4 @@
-Solve problems "pretty well", might not be perfect but they get close.
+Solves problems "pretty well", might not be perfect but they get close.
 
 At each step, pick the optimal move.
 
