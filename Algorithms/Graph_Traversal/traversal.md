@@ -1,5 +1,17 @@
-dijkstra's
-A\*
+### Dijkstra's
+
+Tells you the fastest path or used when you want to minimize the cost. Only works for directed graphs with positive weights.
+
+- Find the cheapest node
+- Check neighbors for a cheaper path, if so change total
+- Repeat for every node
+- Calculate the final path
+
+### Bellman Ford
+
+Can use negative weights.
+
+### A
 
 ### DFS:
 
@@ -7,7 +19,7 @@ A\*
 
 Run time: O(V+E) where V = verticies and E = edges
 
-Tells you if there is a shortest path.
+Tells you the shortest path.
 
 Once you check a vertex you need to mark it was checked otherwise you can infinite loop.
 
